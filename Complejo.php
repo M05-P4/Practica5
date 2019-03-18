@@ -51,7 +51,7 @@ class Complejo {
     function multiplicar(Complejo $complejo) {
         $r = $this->real * $complejo->real - $this->imaginario * $complejo->imaginario;
         $i = $this->real * $complejo->imaginario + $this->imaginario * $complejo->real;
-        //esto se hace para no machacar el $this->real cuando ccalculamos $this->imaginario
+        //esto se hace para no machacar el $this->img cuando calculamos $this->comp
         $this->real = $r;
         $this->imaginario = $i; //se puede omitir
     }
