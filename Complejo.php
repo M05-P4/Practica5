@@ -1,19 +1,7 @@
 <?php
 
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
-
-/**
- * Description of Complejo
- *
- * @author Yuli
- */
 class Complejo {
 
-    //put your code here
     private $real;
     private $imaginario;
 
@@ -88,12 +76,6 @@ class Complejo {
 
 $c = new Complejo(2, 3);
 $d = new Complejo(4, 9);
-//echo $c->sumar($d);
-//echo $c->multiplicar($d);
-//echo $c->dividir($d);
-//echo $c->restar($d);
-//echo $c;
-//echo $c->absoluto;
-//echo $c->argumento;
 echo $c->igual($d);
+    echo "Hello World!";
 
